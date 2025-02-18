@@ -20,6 +20,13 @@ parser.add_argument("-num_entity_anomalies", type=int, default=2047) # fb15k: 72
 parser.add_argument("-num_entity", type=int, default=40943) # fb15k: 14541
 parser.add_argument("-num_relation", type=int, default=11) # fb15k: 237
 
+# transe
+parser.add_argument("-transe_n_epochs", type=int, default=1000)
+parser.add_argument("-transe_batch_size", type=int, default=128)
+parser.add_argument("-transe_negative_number", type=int, default=3)
+parser.add_argument("-transe_lr", type=float, default=1e-4)
+parser.add_argument("-transe_threshold", type=int, default=500)
+
 # bert
 parser.add_argument("-bert_n_epochs", type=int, default=2)
 parser.add_argument("-bert_batch_size", type=int, default=128)
