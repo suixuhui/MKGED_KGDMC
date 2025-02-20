@@ -2,7 +2,7 @@
 
 ## Dataset
 * Prepare the FB15K-237 and WN18RR datasets following <https://github.com/nju-websoft/CCA>
-* Prepare the images of datasets from 
+* Prepare the images of datasets from <https://pan.baidu.com/s/1cbexBtCwxiXM8MeDUvNpRg>, the extraction code is 4xmv
 
 ## Noise generation
 * Generate modality noise: `python process_image.py`
